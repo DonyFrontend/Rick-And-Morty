@@ -1,3 +1,7 @@
+# Rick And Morty website
+
+Get all episode, location and characters.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
