@@ -1,0 +1,73 @@
+.width{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.person{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px 0;
+}
+
+.person__backButtton{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.person__backButtton a{
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 20px;
+    display: flex;
+    gap: 0 10px;
+    transition: 0.5s;
+}
+
+.person__backButtton a:hover{
+    color: blue;
+    transition: 0.5s;
+}
+
+.person__profile{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px 0;
+}
+
+.person__profile img{
+    border-radius: 100%;
+    display: flex;
+}
+
+.person__description{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description_information{
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+    width: 50%;
+}
+
+.description_information h2{
+    color: gray;
+}
+
+.description_information_item{
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px 0;
+}
